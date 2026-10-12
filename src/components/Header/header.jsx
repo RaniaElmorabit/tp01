@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-function Header (){
+import styles from '../style.mod.css'; 
+export default function Header (){
     return (
         <div>
             <img src={logo} alt="hello"/>;
@@ -7,4 +8,3 @@ function Header (){
         </div>
     )
 }
-export default Header;
